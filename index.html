@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Conversor Binario/Decimal con Javascript, CSS y HTML5</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="conversorBinario.css" />
+	<script  type="text/javascript" src="conversorBinario.js"></script>
+</head>
+<body>
+
+<table>
+	<tr>
+		<td>Convierta a binario el siguiente número: </td>
+		<td><div id="numeroActual">3</div></td>
+	</tr>
+</table>
+
+<div class="calculadora">
+	<form action="#" name="calculadora" id="calculadora">
+	<table align="center">
+	  <tr>
+	    <td>128</td>
+	    <td>64</td>	    
+		<td>32</td>
+	    <td>16</td>
+	    <td>8</td>	    
+		<td>4</td>
+	    <td>2</td>
+		<td>1</td>	    
+		<td>Suma</td>	    
+	  </tr>
+	  <tr>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(7)" id='7'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(6)" id='6'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(5)" id='5'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(4)" id='4'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(3)" id='3'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(2)" id='2'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(1)" id='1'/></td>
+		<td><input type="button" class="largo" value="0" onclick="pot_dos(0)" id='0'/></td>
+		<td><p id="fuentevisible">0</p></td>
+	</tr>
+	<tr>
+	    <td><div id="+128" class="sumaValor" >128</div></td>
+	    <td><div id="+64" class="sumaValor" >+64</div></td>
+		<td><div id="+32" class="sumaValor" >+32</div></td>
+		<td><div id="+16" class="sumaValor" >+16</div></td>
+		<td><div id="+8" class="sumaValor" >+8</div></td>
+		<td><div id="+4" class="sumaValor" >+4</div></td>
+		<td><div id="+2" class="sumaValor" >+2</div></td>
+		<td><div id="+1" class="sumaValor">+1</div></td>
+		<td></td>	    
+	</tr>
+	</table>
+	<table>
+		<tr>
+			<td><input type="button" class="sig" value="Sig" onclick="siguiente()" id="nextButton"/></td>
+			<td><input type="button" class="sig" value="Reiniciar" onclick="reiniciar()" id="reinicio"/></td>
+		</tr>
+	</table>
+	</p>
+	</form>
+</div>
+</body>
+</html>
