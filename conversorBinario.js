@@ -6,10 +6,11 @@ numeroActual = numeros[indiceArrayNumeros];
 
 window.onload = function(){ //Acciones tras cargar la página
 	pantalla=document.getElementById("fuentevisible"); //elemento pantalla de salida
-	//document.onkeydown = teclado; //función teclado disponible
 
 	divNumAct = document.getElementById("numeroActual");
 	divNumAct.innerHTML = numeroActual;
+	divNumAct.style.color = 'red';
+	divNumAct.style.fontWeight = 'big';
 }
 
 	function pot_dos(pot){
